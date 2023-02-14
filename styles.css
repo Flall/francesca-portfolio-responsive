@@ -1,0 +1,57 @@
+:root {
+  --branding-color: #bb2649;
+  --light-color: #f1f6f9;
+  --dark-color: #9ba4b4;
+  --heading-font-family: "Philosopher", sans-serif;
+  --default-font-family: "Oxygen", sans-serif;
+  --ending-font-family: "Chakra Petch", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+p {
+  font-family: var(--default-font-family);
+}
+
+.navbar-custom {
+  background-color: var(--branding-color);
+}
+
+.hero {
+  background-color: var(--light-color);
+  text-align: center;
+}
+
+.hero h3 {
+  font-weight: bold;
+}
+
+.container {
+  background-color: var(--dark-color);
+  max-width: 1200px;
+}
