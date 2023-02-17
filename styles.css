@@ -7,7 +7,8 @@
   --ending-font-family: "Chakra Petch", sans-serif;
 }
 
-body {
+body,
+label {
   font-family: var(--default-font-family);
   background: var(--light-color);
 }
@@ -93,7 +94,11 @@ footer p {
 }
 
 .project-description {
-  padding: 80px 20px;
+  padding: 20px 20px;
+}
+
+.content-container {
+  padding: 60px 20px;
 }
 
 footer .contact-box {
@@ -116,6 +121,12 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+#paragraph-link,
+#footer-link {
+  text-decoration: none;
+  color: var(--branding-color);
 }
 
 #house-plant-preview {
