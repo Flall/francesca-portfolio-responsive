@@ -49,6 +49,12 @@ footer {
   margin: 60px 0;
   max-width: 1200px;
 }
+
+footer p {
+  font-family: var(--ending-font-family);
+  font-weight: medium;
+}
+
 .navbar-custom {
   background-color: var(--branding-color);
 }
@@ -84,6 +90,10 @@ footer {
 .container {
   background-color: var(--light-color);
   max-width: 1200px;
+}
+
+.project-description {
+  padding: 80px 20px;
 }
 
 footer .contact-box {
