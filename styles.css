@@ -127,3 +127,17 @@ footer .social-links a:hover {
   border-radius: 30px;
   border: 1px solid #9874f3;
 }
+
+@media (max-width: 920px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+}
