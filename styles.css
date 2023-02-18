@@ -97,6 +97,10 @@ footer p {
   padding: 20px 20px;
 }
 
+.content {
+  margin: 30px;
+}
+
 .content-container {
   padding: 60px 20px;
 }
@@ -148,6 +152,10 @@ footer .social-links a:hover {
     font-size: 28px;
   }
   .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  .content-container {
     text-align: center;
     padding: 0;
   }
