@@ -143,6 +143,11 @@ footer .social-links a:hover {
   border: 1px solid #9874f3;
 }
 
+#dictionary-app {
+  border-radius: 30px;
+  border: 1px solid #65647c;
+}
+
 @media (max-width: 920px) {
   h1 {
     font-size: 44px;
